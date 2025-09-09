@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fi-topbar {
+    display: none;
+}
+
+.fi-main {
+    max-width: 100%;
+    padding: 0 !important;
+}
+
+[x-cloak] {
+    display: none !important;
+}
