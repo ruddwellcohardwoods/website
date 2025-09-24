@@ -20,7 +20,7 @@
             <div class="absolute inset-0 -z-10">
                 <div class="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-orange-50"></div>
                 <div class="absolute inset-0"
-                    style="background-image: url('{{ asset('images/home/pattern_vector.svg') }}'); background-repeat: repeat; background-size: 24px 24px; opacity: 0.15;">
+                    style="background-image: url('{{ asset('images/home/vector.jpg') }}'); background-size: cover; background-position: center;">
                 </div>
             </div>
             <div class="flex flex-col justify-between min-h-screen relative w-full max-w-full">
