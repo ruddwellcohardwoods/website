@@ -180,7 +180,7 @@
 
                 <!-- Text inside beige container -->
                 <div class="text-center mt-8">
-                    <p class="text-sm text-gray-700">Showing 6 of 5,000 profiles</p>
+                    <p class="text-sm text-gray-700 font-bold">Showing 6 of 5,000 profiles</p>
                 </div>
             </div>
 
