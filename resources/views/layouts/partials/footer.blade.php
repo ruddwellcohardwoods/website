@@ -1,31 +1,34 @@
 <footer class="bg-[#F5F1EB] py-16">
     <div class="px-4 sm:px-16 xl:px-44">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="flex flex-col md:flex-row justify-between gap-8">
             <!-- Company Logo -->
-            <div class="md:col-span-2">
+            <div class="flex-1">
                 <a href="/">
                     <img class="h-16 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
                 </a>
             </div>
 
-            <!-- Quick Links -->
-            <div class="md:col-span-1 text-right">
-                <h3 class="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Quick links</h3>
-                <ul class="space-y-2">
-                    <li><a href="/" class="text-sm text-gray-600 hover:text-gray-900">Gallery</a></li>
-                    <li><a href="/profiles" class="text-sm text-gray-600 hover:text-gray-900">Profiles</a></li>
-                    <li><a href="/about" class="text-sm text-gray-600 hover:text-gray-900">Services</a></li>
-                </ul>
-            </div>
+            <!-- Right Side Container -->
+            <div class="flex-1 flex flex-col md:flex-row justify-end gap-8">
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-md font-semibold text-gray-900 tracking-wider uppercase mb-4">Quick links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="text-md text-gray-600 hover:text-gray-900">Gallery</a></li>
+                        <li><a href="/profiles" class="text-md text-gray-600 hover:text-gray-900">Profiles</a></li>
+                        <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">Services</a></li>
+                    </ul>
+                </div>
 
-            <!-- Company -->
-            <div class="md:col-span-1 text-right">
-                <h3 class="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Company</h3>
-                <ul class="space-y-2">
-                    <li><a href="/about" class="text-sm text-gray-600 hover:text-gray-900">About us</a></li>
-                    <li><a href="/contact" class="text-sm text-gray-600 hover:text-gray-900">Contact us</a></li>
-                    <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900">FAQ</a></li>
-                </ul>
+                <!-- Company -->
+                <div>
+                    <h3 class="text-md font-semibold text-gray-900 tracking-wider uppercase mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">About us</a></li>
+                        <li><a href="/contact" class="text-md text-gray-600 hover:text-gray-900">Contact us</a></li>
+                        <li><a href="#" class="text-md text-gray-600 hover:text-gray-900">FAQ</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -33,7 +36,7 @@
         <div class="mt-12 pt-8 border-t border-gray-300">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <p class="text-sm text-gray-600">
-                    COPYRIGHT © 2020–{{ date('Y') }} · WELLCO HARDWOODS
+                    COPYRIGHT © {{ date('Y') }} · WELLCO HARDWOODS
                 </p>
                 <div class="flex space-x-4 mt-4 md:mt-0">
                     <!-- LinkedIn Icon -->
