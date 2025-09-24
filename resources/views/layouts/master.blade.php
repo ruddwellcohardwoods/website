@@ -20,22 +20,15 @@
             <div class="absolute inset-0 -z-10">
                 <div class="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-orange-50"></div>
                 <div class="absolute inset-0"
-                    style="background-image: radial-gradient(#d6d3d1 1px, transparent 1px); background-size: 32px 32px;">
+                    style="background-image: url('{{ asset('images/home/pattern_vector.svg') }}'); background-repeat: repeat; background-size: 24px 24px; opacity: 0.15;">
                 </div>
             </div>
-            <div @if(Route::is('home')) class="flex flex-col justify-between min-h-screen relative w-full max-w-full"
-                @endif @if(!Route::is('home'))
-                class="flex flex-col justify-between min-h-screen relative w-full max-w-full space-y-10 px-4 sm:px-16 xl:px-44"
-                @endif>
+            <div class="flex flex-col justify-between min-h-screen relative w-full max-w-full">
                 <!-- Header -->
-                <div @if(Route::is('home')) class="px-4 sm:px-16 xl:px-44"
-                    style="background-image: url('{{ asset('images/hero-bg.svg') }}'); background-size: cover; background-position: center;"
-                    @endif>
-                    @include('layouts.partials.header')
+                @include('layouts.partials.header')
 
-                    <!-- Hero Section -->
-                    @yield('hero')
-                </div>
+                <!-- Hero Section -->
+                @yield('hero')
 
                 <!-- Main Content -->
                 <main>
