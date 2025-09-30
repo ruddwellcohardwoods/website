@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "node scripts/optimize-images.js && vite build",
+        "build": "vite build",
         "optimize-images": "node scripts/optimize-images.js"
     },
     "devDependencies": {
