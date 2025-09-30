@@ -21,6 +21,15 @@ Route::get('/contact', function () {
 
 Route::get('/profiles', [App\Http\Controllers\ProfilesController::class, 'index'])->name('profiles.index');
 Route::get('/gallery', [App\Http\Controllers\PortfolioController::class, 'gallery'])->name('gallery');
+Route::get('/exteriors', function () {
+    return view('pages.exteriors');
+})->name('exteriors');
+Route::get('/interiors', function () {
+    return view('pages.interiors');
+})->name('interiors');
+Route::get('/commercial', function () {
+    return view('pages.commercial');
+})->name('commercial');
 Route::get('/portfolio', [App\Http\Controllers\PortfolioController::class, 'index'])->name('portfolio.index');
 Route::get('/portfolio/{woodName}', [App\Http\Controllers\PortfolioController::class, 'show']);
 Route::get('/search', [ProfilesController::class, 'search'])->name('search');

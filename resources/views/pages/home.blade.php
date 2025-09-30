@@ -28,7 +28,7 @@
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     From siding to exterior mouldings, our woodwork blends beauty with resilience to every exterior detail.
                 </p>
-                <a href="/portfolio" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
+                <a href="{{ route('exteriors') }}" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
                     View All 
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -47,7 +47,7 @@
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     Elevate the comfort and style, our interior craftsmanship shapes the heart of every space.
                 </p>
-                <a href="/portfolio" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
+                <a href="{{ route('interiors') }}" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
                     View All 
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -76,7 +76,7 @@
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     Committed to office quality, our woodwork brings professionalism meets the standard of excellence.
                 </p>
-                <a href="/portfolio" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
+                <a href="{{ route('commercial') }}" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
                     View All 
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>

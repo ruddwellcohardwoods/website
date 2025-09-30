@@ -25,7 +25,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
                 
                 <!-- Exteriors Card -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer">
+                <a href="{{ route('exteriors') }}" class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer block">
                     <div class="aspect-[4/3] relative">
                         <img src="{{ asset('images/home/exterior.png') }}" 
                              alt="Exteriors" 
@@ -44,10 +44,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Interiors Card -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer">
+                <a href="{{ route('interiors') }}" class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer block">
                     <div class="aspect-[4/3] relative">
                         <img src="{{ asset('images/home/interior.png') }}" 
                              alt="Interiors" 
@@ -66,10 +66,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Commercial Card -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer">
+                <a href="{{ route('commercial') }}" class="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:scale-105 cursor-pointer block">
                     <div class="aspect-[4/3] relative">
                         <img src="{{ asset('images/home/commercial.png') }}" 
                              alt="Commercial" 
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
             </div>
         </div>
