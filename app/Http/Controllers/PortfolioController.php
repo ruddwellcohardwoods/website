@@ -198,6 +198,11 @@ class PortfolioController extends Controller
         return view('pages.portfolio', ['woodTypesNames' => $woodTypesNames]);
     }
 
+    public function gallery()
+    {
+        return view('pages.gallery');
+    }
+
     public function show($woodName)
     {
         // Find the wood details by name

@@ -15,7 +15,7 @@
                                 Home
                             </a>
                             <a class="inline-block px-3 py-2 text-base text-[#755D33] hover:text-[#4D3D22] font-medium"
-                                href="/portfolio">
+                                href="/gallery">
                                 Gallery
                             </a>
                             <a class="inline-block px-3 py-2 text-base text-[#755D33] hover:text-[#4D3D22] font-medium"
@@ -63,7 +63,7 @@
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                         <div class="flex flex-col py-1 justify-center divide-y divide-gray-100" role="none">
                             <a href="/" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Home</a>
-                            <a href="/portfolio" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Gallery</a>
+                            <a href="/gallery" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Gallery</a>
                             <a href="/profiles" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Profiles</a>
                             <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Services</a>
                             <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">About Us</a>
