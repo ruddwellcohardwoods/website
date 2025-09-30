@@ -3,9 +3,9 @@
 @section('title', 'Gallery')
 
 @section('content')
-<div class="min-h-screen bg-white">
+<div class="min-h-screen">
     <!-- Gallery Header Section -->
-    <div class="pt-20 pb-16">
+    <div class="pt-20 bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('images/home/home-pattern.jpg') }}');">
         <div class="mx-auto max-w-7xl px-4 text-center">
             <!-- Main Title -->
             <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -20,7 +20,7 @@
     </div>
 
     <!-- Gallery Cards Section -->
-    <div class="pb-20">
+    <div class="py-20 bg-white">
         <div class="mx-auto max-w-7xl px-4">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
                 
