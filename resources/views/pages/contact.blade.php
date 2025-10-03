@@ -3,61 +3,113 @@
 @section('title', 'Contact Us - Wellco Hardwoods')
 
 @section('content')
-<div>
-    <div class="grid gap-10 md:gap-3 md:flex w-full md:h-[50%]">
-        <div class="flex-1 flex flex-col space-y-10">
-            <div class="flex flex-col w-full md:w-[80%] space-y-5">
-                <h2 class="text-4xl font-semibold text-gray-900">Contact us</h2>
-                <p>Contact us to get started on your next dream project. We’re excited to hear from you and will get
-                    back to you as soon as possible.</p>
+<div class="mx-auto w-full px-4 sm:px-16 xl:px-44 py-12">
+    <!-- Centered Header Section -->
+    <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Contact us</h1>
+        <p class="text-gray-600 text-lg">We're just a message away, and we'd love to hear from you.</p>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <!-- Left Column - Let's talk! -->
+        <div class="flex flex-col space-y-10">
+            <div class="flex flex-col space-y-5">
+                <h2 class="text-3xl font-bold text-gray-900">Let's talk!</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    We're a wholesale supplier and do not sell directly to individual homeowners or retail customers. If you're a business, please fill out our customer application, and we'll gladly share pricing and product info.
+                </p>
+            </div>
+            
+            <div class="flex flex-col space-y-7">
+                <!-- Email us -->
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <img loading="lazy" src="{{ asset('images/contact2.png') }}" alt="Email icon" class="w-12 h-12">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">Email us</h3>
+                        <p class="text-gray-600">sales@wellcohardwoods.com</p>
+                    </div>
+                </div>
+
+                <!-- Have any question? -->
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <img loading="lazy" src="{{ asset('images/contact3.png') }}" alt="Phone icon" class="w-12 h-12">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">Have any question?</h3>
+                        <p class="text-gray-600"><a href="tel:719-390-3031">719-390-3031</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column - Contact Form -->
+        <div class="bg-[#F5F5F0] rounded-lg p-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Ready to get started?</h2>
+            <form action="#" method="POST" class="space-y-5">
+                @csrf
                 <div>
-                    <a href="mailto:operations@wellcohardwoods.com"
-                        class="group inline-flex items-center justify-center rounded py-3 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-wellco-brown text-white hover:bg-wellco-brown/90 hover:text-slate-100 active:bg-wellco-brown/90 active:text-slate-300 focus-visible:outline-wellco-brown"
-                        variant="solid" color="slate">Send an email</a>
+                    <input 
+                        type="text" 
+                        name="company_name" 
+                        id="company_name" 
+                        placeholder="Company name"
+                        class="w-full px-4 py-3 border-0 rounded-md bg-white text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-wellco-brown"
+                        required
+                    >
                 </div>
-            </div>
-            <div class="flex flex-col space-y-7 pt-6 md:pt-1">
-                <div class="flex space-x-6">
-                    <div>
-                        <img loading="lazy" src="{{ asset('images/contact1.png') }}" alt="contact icon 1"
-                            class="max-w-14 max-h-14">
-                    </div>
-                    <div>
-                        <h2 class="text-xl font-semibold text-gray-900">Visit us</h2>
-                        <p>
-                            2755 E Las Vegas St.
-                            <br>
-                            Colorado Springs, CO 80906
-                        </p>
-                    </div>
+                
+                <div>
+                    <input 
+                        type="email" 
+                        name="company_email" 
+                        id="company_email" 
+                        placeholder="Company email address"
+                        class="w-full px-4 py-3 border-0 rounded-md bg-white text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-wellco-brown"
+                        required
+                    >
                 </div>
-                <div class="flex space-x-6">
-                    <div>
-                        <img loading="lazy" src="{{ asset('images/contact2.png') }}" alt="contact icon 1"
-                            class="max-w-14 max-h-14">
-                    </div>
-                    <div>
-                        <h2 class="text-xl font-semibold text-gray-900">Email us</h2>
-                        <p>
-                            operations@wellcohardwoods.com
-                        </p>
-                    </div>
+                
+                <div>
+                    <input 
+                        type="text" 
+                        name="subject" 
+                        id="subject" 
+                        placeholder="Subject"
+                        class="w-full px-4 py-3 border-0 rounded-md bg-white text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-wellco-brown"
+                        required
+                    >
                 </div>
-                <div class="flex space-x-6">
-                    <div>
-                        <img loading="lazy" src="{{ asset('images/contact3.png') }}" alt="contact icon 1"
-                            class="max-w-14 max-h-14">
-                    </div>
-                    <div>
-                        <h2 class="text-xl font-semibold text-gray-900">Have any question?</h2>
-                        <p><a href="tel:719-390-3031">719-390-3031</a></p>
-                    </div>
+                
+                <div>
+                    <textarea 
+                        name="message" 
+                        id="message" 
+                        rows="5" 
+                        placeholder="Type your message here"
+                        class="w-full px-4 py-3 border-0 rounded-md bg-white text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-wellco-brown resize-none"
+                        required
+                    ></textarea>
                 </div>
-            </div>
+                
+                <div>
+                    <button 
+                        type="submit"
+                        class="w-full bg-wellco-brown text-white font-semibold py-3 px-6 rounded-md hover:bg-wellco-brown/90 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-wellco-brown focus:ring-offset-2"
+                    >
+                        Send a message
+                    </button>
+                </div>
+            </form>
         </div>
-        <div class="flex-1 pt-6 md:pt-0">
-            <div id="map" class="w-full h-[30rem]"></div>
-        </div>
+    </div>
+
+    <!-- Full Width Map Section -->
+    <div class="w-full">
+        <div id="map" class="w-full h-[400px] md:h-[500px] rounded-lg shadow-lg"></div>
     </div>
 </div>
 @endsection
