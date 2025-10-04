@@ -23,7 +23,7 @@
                     class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
             </div>
             <!-- Content Right -->
-            <div class="lg:col-span-2">
+            <div class="lg:col-span-2 lg:w-[70%] lg:mx-24">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Exteriors</h2>
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     From siding to exterior mouldings, our woodwork blends beauty with resilience to every exterior detail.
@@ -42,7 +42,7 @@
     <div class="px-4 sm:px-16 xl:px-44 py-16">
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
             <!-- Content Left -->
-            <div class="lg:col-span-2 order-2 lg:order-1">
+            <div class="lg:col-span-2 order-2 lg:order-1 lg:w-[70%] lg:mx-24">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Interiors</h2>
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     Elevate the comfort and style, our interior craftsmanship shapes the heart of every space.
@@ -71,7 +71,7 @@
                     class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
             </div>
             <!-- Content Right -->
-            <div class="lg:col-span-2">
+            <div class="lg:col-span-2 lg:w-[70%] lg:mx-24">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Commercial</h2>
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     Committed to office quality, our woodwork brings professionalism meets the standard of excellence.

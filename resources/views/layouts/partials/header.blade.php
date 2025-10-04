@@ -4,7 +4,7 @@
             <div class="flex justify-between items-center w-full">
                 <div class="">
                     <a aria-label="Home" href="/">
-                        <img class="h-12 md:h-16 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
+                        <img class="h-16 md:h-20 lg:h-24 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center">
@@ -23,7 +23,7 @@
                                 Profiles
                             </a>
                             <a class="inline-block px-3 py-2 text-base text-[#755D33] hover:text-[#4D3D22] font-medium"
-                                href="/about">
+                                href="/services">
                                 Services
                             </a>
                             <div class="relative inline-block text-left" x-data="{ open: false }">
@@ -37,8 +37,9 @@
                                 <div x-show="open" @click.away="open = false" 
                                     class="absolute right-0 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                                     <div class="py-1">
-                                        <a href="/about" class="block px-4 py-2 text-sm text-[#755D33] hover:bg-[#F2ECE1]">About Us</a>
-                                        <a href="/contact" class="block px-4 py-2 text-sm text-[#755D33] hover:bg-[#F2ECE1]">Contact</a>
+                                        <a href="/about" class="block px-4 py-2 text-sm text-[#755D33] hover:bg-[#F2ECE1]">About us</a>
+                                        <a href="/contact" class="block px-4 py-2 text-sm text-[#755D33] hover:bg-[#F2ECE1]">Contact us</a>
+                                        <a href="/faqs" class="block px-4 py-2 text-sm text-[#755D33] hover:bg-[#F2ECE1]">FAQs</a>
                                     </div>
                                 </div>
                             </div>
@@ -65,9 +66,10 @@
                             <a href="/" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Home</a>
                             <a href="/gallery" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Gallery</a>
                             <a href="/profiles" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Profiles</a>
-                            <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Services</a>
-                            <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">About Us</a>
-                            <a href="/contact" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Contact</a>
+                            <a href="/services" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Services</a>
+                            <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">About us</a>
+                            <a href="/contact" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Contact us</a>
+                            <a href="/faqs" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">FAQs</a>
                         </div>
                     </div>
                 </div>

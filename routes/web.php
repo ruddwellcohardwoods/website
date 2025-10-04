@@ -19,6 +19,14 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 
+Route::get('/faqs', function () {
+    return view('pages.faqs');
+})->name('faqs');
+
+Route::get('/services', function () {
+    return view('pages.services');
+})->name('services');
+
 Route::get('/profiles', [App\Http\Controllers\ProfilesController::class, 'index'])->name('profiles.index');
 Route::get('/gallery', [App\Http\Controllers\PortfolioController::class, 'gallery'])->name('gallery');
 Route::get('/exteriors', function () {
