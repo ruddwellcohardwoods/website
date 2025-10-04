@@ -14,9 +14,9 @@
                 <div>
                     <h3 class="text-md font-semibold text-gray-900 tracking-wider uppercase mb-4">Quick links</h3>
                     <ul class="space-y-2">
-                        <li><a href="/" class="text-md text-gray-600 hover:text-gray-900">Gallery</a></li>
+                        <li><a href="/gallery" class="text-md text-gray-600 hover:text-gray-900">Gallery</a></li>
                         <li><a href="/profiles" class="text-md text-gray-600 hover:text-gray-900">Profiles</a></li>
-                        <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">Services</a></li>
+                        <li><a href="/services" class="text-md text-gray-600 hover:text-gray-900">Services</a></li>
                     </ul>
                 </div>
 
@@ -26,7 +26,7 @@
                     <ul class="space-y-2">
                         <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">About us</a></li>
                         <li><a href="/contact" class="text-md text-gray-600 hover:text-gray-900">Contact us</a></li>
-                        <li><a href="#" class="text-md text-gray-600 hover:text-gray-900">FAQ</a></li>
+                        <li><a href="/faqs" class="text-md text-gray-600 hover:text-gray-900">FAQ</a></li>
                     </ul>
                 </div>
             </div>

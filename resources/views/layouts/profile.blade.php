@@ -8,7 +8,7 @@
     <p class="text-center text-gray-500 font-semibold text-xl">{{ $emptyStateMessage }}</p>
 </div>
 @else
-<div x-data="profiles" class="min-h-screen flex flex-col space-y-5 mx-auto w-full">
+<div x-data="profiles" class="min-h-screen flex flex-col space-y-5 mx-auto w-full px-4 sm:px-16 xl:px-44">
     <div class="w-full sm:h-[20vh] bg-[#F2ECE1]">
         @yield('heading')
     </div>
