@@ -4,7 +4,7 @@
             <div class="flex justify-between items-center w-full">
                 <div class="">
                     <a aria-label="Home" href="/">
-                        <img class="h-12 md:h-16 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
+                        <img class="h-16 md:h-20 lg:h-24 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
                     </a>
                 </div>
                 <div class="hidden md:flex items-center">
