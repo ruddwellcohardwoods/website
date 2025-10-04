@@ -23,7 +23,7 @@
                                 Profiles
                             </a>
                             <a class="inline-block px-3 py-2 text-base text-[#755D33] hover:text-[#4D3D22] font-medium"
-                                href="/about">
+                                href="/services">
                                 Services
                             </a>
                             <div class="relative inline-block text-left" x-data="{ open: false }">
@@ -66,7 +66,7 @@
                             <a href="/" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Home</a>
                             <a href="/gallery" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Gallery</a>
                             <a href="/profiles" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Profiles</a>
-                            <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Services</a>
+                            <a href="/services" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Services</a>
                             <a href="/about" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">About us</a>
                             <a href="/contact" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">Contact us</a>
                             <a href="/faqs" class="block px-4 py-3 text-sm text-gray-700" role="menuitem" tabindex="-1">FAQs</a>
