@@ -3,7 +3,7 @@
 @section('title', 'Contact Us - Wellco Hardwoods')
 
 @section('content')
-<div class="mx-auto w-full px-4 sm:px-16 xl:px-44 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <!-- Centered Header Section -->
     <div class="text-center mb-16">
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Contact us</h1>
