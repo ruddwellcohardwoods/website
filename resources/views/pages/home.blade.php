@@ -14,35 +14,18 @@
 
 @section('content')
 <div class="w-full">
-    <!-- Exteriors Section -->
+    <!-- Interiors Section -->
     <div class="px-4 sm:px-16 xl:px-44 py-16">
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
             <!-- Image Left (wider) -->
             <div class="relative lg:col-span-3">
-                <img src="{{ asset('images/home/exterior.png') }}" alt="Exteriors" 
-                    class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                <a href="{{ route('interiors') }}">
+                    <img src="{{ asset('images/home/interior.png') }}" alt="Interiors" 
+                        class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                </a>
             </div>
             <!-- Content Right -->
             <div class="lg:col-span-2 lg:w-[70%] lg:mx-24">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Exteriors</h2>
-                <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                    From siding to exterior mouldings, our woodwork blends beauty with resilience to every exterior detail.
-                </p>
-                <a href="{{ route('exteriors') }}" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
-                    View All 
-                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Interiors Section -->
-    <div class="px-4 sm:px-16 xl:px-44 py-16">
-        <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-            <!-- Content Left -->
-            <div class="lg:col-span-2 order-2 lg:order-1 lg:w-[70%] lg:mx-24">
                 <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Interiors</h2>
                 <p class="text-gray-600 text-lg mb-6 leading-relaxed">
                     Elevate the comfort and style, our interior craftsmanship shapes the heart of every space.
@@ -54,10 +37,32 @@
                     </svg>
                 </a>
             </div>
+        </div>
+    </div>
+
+
+    <!-- Exteriors Section -->
+    <div class="px-4 sm:px-16 xl:px-44 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+            <!-- Content Left -->
+            <div class="lg:col-span-2 order-2 lg:order-1 lg:w-[70%] lg:mx-24">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Exteriors</h2>
+                <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                    From siding to exterior mouldings, our woodwork blends beauty with resilience to every exterior detail.
+                </p>
+                <a href="{{ route('exteriors') }}" class="inline-flex items-center text-gray-900 font-semibold hover:text-gray-700 transition-colors">
+                    View All 
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
             <!-- Image Right (wider) -->
             <div class="relative lg:col-span-3 order-1 lg:order-2">
-                <img src="{{ asset('images/home/interior.png') }}" alt="Interiors" 
-                    class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                <a href="{{ route('exteriors') }}">
+                    <img src="{{ asset('images/home/exterior.png') }}" alt="Exteriors" 
+                        class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                </a>
             </div>
         </div>
     </div>
@@ -67,8 +72,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
             <!-- Image Left (wider) -->
             <div class="relative lg:col-span-3">
-                <img src="{{ asset('images/home/commercial.png') }}" alt="Commercial" 
-                    class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                <a href="{{ route('commercial') }}">
+                    <img src="{{ asset('images/home/commercial.png') }}" alt="Commercial" 
+                        class="w-full h-[400px] lg:h-[500px] object-cover rounded-lg">
+                </a>
             </div>
             <!-- Content Right -->
             <div class="lg:col-span-2 lg:w-[70%] lg:mx-24">
