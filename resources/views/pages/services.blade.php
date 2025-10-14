@@ -98,43 +98,67 @@
         </button>
       </div>
 
-      <!-- Image Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/1.png') }}" alt="Millwork profile 1" class="w-full h-full object-cover">
+      <!-- Masonry Layout -->
+      <div class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/1.png') }}" alt="Millwork profile 1" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/2.png') }}" alt="Millwork profile 2" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/2.png') }}" alt="Millwork profile 2" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/3.png') }}" alt="Millwork profile 3" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/3.png') }}" alt="Millwork profile 3" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/4.png') }}" alt="Millwork profile 4" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/4.png') }}" alt="Millwork profile 4" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/5.png') }}" alt="Millwork profile 5" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/5.png') }}" alt="Millwork profile 5" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/6.png') }}" alt="Millwork profile 6" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/6.png') }}" alt="Millwork profile 6" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/7.png') }}" alt="Millwork profile 7" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/7.png') }}" alt="Millwork profile 7" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/8.png') }}" alt="Millwork profile 8" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/8.png') }}" alt="Millwork profile 8" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/9.png') }}" alt="Millwork profile 9" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/9.png') }}" alt="Millwork profile 9" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/10.png') }}" alt="Millwork profile 10" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/10.png') }}" alt="Millwork profile 10" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/11.png') }}" alt="Millwork profile 11" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/11.png') }}" alt="Millwork profile 11" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/12.png') }}" alt="Millwork profile 12" class="w-full h-full object-cover">
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/12.png') }}" alt="Millwork profile 12" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
       </div>
     </div>
@@ -170,14 +194,14 @@
 
       <!-- Specialty Images Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/footer1.png') }}" alt="Lock-Miter Joints" class="w-full h-full object-cover">
+        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
+          <img src="{{ asset('images/services/footer1.png') }}" alt="Lock-Miter Joints" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/footer2.png') }}" alt="Faux Beam Assembly" class="w-full h-full object-cover">
+        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
+          <img src="{{ asset('images/services/footer2.png') }}" alt="Faux Beam Assembly" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100">
-          <img src="{{ asset('images/services/footer3.png') }}" alt="S3S Surfaced 3 Sides" class="w-full h-full object-cover">
+        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
+          <img src="{{ asset('images/services/footer3.png') }}" alt="S3S Surfaced 3 Sides" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
         </div>
       </div>
     </div>

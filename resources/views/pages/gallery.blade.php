@@ -33,7 +33,7 @@
                         
                         <!-- Glass Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-md bg-white/10 border-t border-white/20">
+                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
                                 <div class="px-8 py-6 flex items-center justify-between">
                                     <h3 class="text-2xl font-semibold text-white">Exteriors</h3>
                                     <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
@@ -55,7 +55,7 @@
                         
                         <!-- Glass Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-md bg-white/10 border-t border-white/20">
+                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
                                 <div class="px-8 py-6 flex items-center justify-between">
                                     <h3 class="text-2xl font-semibold text-white">Interiors</h3>
                                     <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
@@ -77,7 +77,7 @@
                         
                         <!-- Glass Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-md bg-white/10 border-t border-white/20">
+                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
                                 <div class="px-8 py-6 flex items-center justify-between">
                                     <h3 class="text-2xl font-semibold text-white">Commercial</h3>
                                     <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
