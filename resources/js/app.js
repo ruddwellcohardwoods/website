@@ -1,5 +1,27 @@
 import './bootstrap';
 
+// Set note card height to match column layout
+function setNoteCardHeight() {
+    const noteCard = document.getElementById('note-card');
+    
+    if (noteCard) {
+        const firstGalleryItem = noteCard.nextElementSibling;
+        
+        if (firstGalleryItem) {
+            const imageHeight = firstGalleryItem.offsetHeight;
+            if (imageHeight > 0) {
+                noteCard.style.minHeight = `${imageHeight}px`;
+            }
+        }
+    }
+}
+
+// Run after images load and on resize
+window.addEventListener('load', () => {
+    setTimeout(setNoteCardHeight, 100);
+});
+window.addEventListener('resize', setNoteCardHeight);
+
 // Gallery Lightbox Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const lightbox = document.getElementById('lightbox');

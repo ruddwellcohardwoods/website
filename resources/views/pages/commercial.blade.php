@@ -26,9 +26,9 @@
             <div class="columns-2 lg:columns-3 gap-4 lg:gap-6">
                 
                 <!-- Please Note Card -->
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="rounded-lg shadow-lg overflow-hidden" style="background: linear-gradient(135deg, #E5D9C3 0%, #F2ECE1 100%);">
-                        <div class="flex flex-col justify-center p-6">
+                <div id="note-card" class="break-inside-avoid mb-4 lg:mb-6">
+                    <div class="rounded-lg shadow-lg overflow-hidden h-full min-h-[290px]" style="background: linear-gradient(135deg, #E5D9C3 0%, #F2ECE1 100%);">
+                        <div class="flex flex-col justify-center p-6 h-full">
                             <h3 class="font-bold text-gray-900 mb-4">Please Note:</h3>
                             <p class="text-sm text-gray-700 mb-4">
                                 We do offer more in this area, though not every project is photographed. This gallery provides just a glimpse of what we do.
