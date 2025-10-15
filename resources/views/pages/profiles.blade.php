@@ -61,11 +61,14 @@
 
         <!-- Empty state when no results found -->
         <li x-show="!isLoadingProducts && query.length > 0 && filteredProducts.length === 0 && !hasMatchingSubcategories()"
-            class="text-gray-500 text-center py-4">
+            class="text-gray-500 text-center py-4 px-3">
             <svg class="mx-auto h-8 w-8 text-gray-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
             </svg>
-            <p class="text-sm">No profiles found</p>
+            <p class="text-sm mb-1">No profiles found</p>
+            <p class="text-xs text-gray-600">
+                <a href="/contact" class="text-[#755D33] hover:text-[#5d4628] font-medium underline">Contact us</a> to make it for you
+            </p>
         </li>
     </ul>
 
