@@ -34,7 +34,7 @@
                 class="border p-4 rounded-lg bg-white">
                 <div class="flex flex-col items-center justify-between h-[26rem] md:h-[24rem]">
                     <!-- Product Image -->
-                    <div class="flex-shrink-0 h-[70%] w-full md:w-[90%]">
+                    <div class="flex-shrink-0 h-[70%] w-full md:w-[90%] gallery-item cursor-pointer">
                         <img src="{{ asset($product->image_url) }}" alt="{{ $product->name }}"
                             class="h-full w-full object-contain rounded-lg" loading="lazy" width="1200" height="1200"
                             onerror="this.onerror=null; this.src='{{ asset(str_replace('storage/optimized/', '', $product->image_url)) }}';">
