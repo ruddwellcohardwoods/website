@@ -44,6 +44,7 @@
             selectedSubcategoryName: 'Profiles',
             filteredProducts: [],
             isLoadingProducts: false,
+            isLoadingMain: false,
 
             init() {
                 // On page load, fetch either all products or the subcategory based on URL
@@ -56,6 +57,7 @@
             // Function to fetch category data via AJAX
             fetchSubCategory(subcategoryId = null, page = 1) {
                 this.selectedSubcategory = subcategoryId;
+                this.isLoadingMain = true;
                 let url = `/profiles?page=${page}`;
                 if (subcategoryId) {
                     url += `&subcategory_id=${subcategoryId}`;
@@ -75,8 +77,12 @@
                     this.toggleCategory(data.categoryId); 
                     this.setSelectedSubcategoryName(subcategoryId);
                     this.isOpen = false;
+                    this.isLoadingMain = false;
                 })
-                .catch(error => console.error('Error:', error));
+                .catch(error => {
+                    console.error('Error:', error);
+                    this.isLoadingMain = false;
+                });
             },
 
             // Update the URL with selected subcategory and page
@@ -137,6 +143,7 @@
                 }
             },
             openProduct(product) {
+                this.isLoadingMain = true;
                 // Build the query URL for the AJAX request
                 const url = `/profiles?name=${encodeURIComponent(product.name)}`;
 
@@ -152,8 +159,23 @@
                     this.productlistHtml = data.html;
                     this.toggleCategory(product.category_id); 
                     this.setSelectedSubcategoryName(product.subcategory_id);
+                    this.isLoadingMain = false;
                 })
-                .catch(error => console.error('Error fetching products:', error));
+                .catch(error => {
+                    console.error('Error fetching products:', error);
+                    this.isLoadingMain = false;
+                });
+            },
+            hasMatchingSubcategories() {
+                if (!this.query) return false;
+                const subcategories = document.querySelectorAll('[data-subcategory-id]');
+                const lowerQuery = this.query.toLowerCase();
+                for (let sub of subcategories) {
+                    if (sub.textContent.toLowerCase().includes(lowerQuery)) {
+                        return true;
+                    }
+                }
+                return false;
             },
         }));
     });
