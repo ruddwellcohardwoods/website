@@ -88,21 +88,58 @@ class HomeController extends Controller
 
     private function optimizeImage($imagePath)
     {
-        // Path to the original image
-        $originalImagePath = storage_path('app/public/' . $imagePath);
+        // If path is null or empty, return a default or null
+        if (empty($imagePath)) {
+            return null;
+        }
+
+        // Remove 'storage/' prefix if it exists
+        $cleanPath = str_replace('storage/', '', $imagePath);
         
-        // Create optimized image with higher resolution and quality
-        $image = Image::make($originalImagePath)
-            ->resize(600, 600, function ($constraint) {  // Increase size to 600x600
-                $constraint->aspectRatio();
-                $constraint->upsize();
-            })
-            ->encode('webp', 90); // Use WebP format and increase quality to 90%
-    
-        // Save optimized image to storage/app/public/optimized
-        $optimizedPath = 'optimized/' . basename($imagePath, '.jpg') . '.webp';
-        Storage::put('public/' . $optimizedPath, (string) $image);
-    
-        return 'storage/' . $optimizedPath;
+        // Generate the optimized path
+        $fileExtension = pathinfo($cleanPath, PATHINFO_EXTENSION);
+        $fileName = pathinfo($cleanPath, PATHINFO_FILENAME);
+        $optimizedPath = 'optimized/' . $fileName . '.webp';
+        $optimizedFullPath = storage_path('app/public/' . $optimizedPath);
+        
+        // Check if optimized version already exists
+        if (file_exists($optimizedFullPath)) {
+            return 'storage/' . $optimizedPath;
+        }
+        
+        // Path to the original image
+        $originalImagePath = storage_path('app/public/' . $cleanPath);
+        
+        // Check if original file exists
+        if (!file_exists($originalImagePath)) {
+            // Log the error or return the original path
+            \Log::warning("Image not found: {$originalImagePath}");
+            return 'storage/' . $cleanPath; // Return original path if file doesn't exist
+        }
+        
+        try {
+            // Ensure the optimized directory exists
+            $optimizedDir = storage_path('app/public/optimized');
+            if (!file_exists($optimizedDir)) {
+                mkdir($optimizedDir, 0755, true);
+            }
+            
+            // Create optimized image with higher resolution and quality
+            $image = Image::make($originalImagePath)
+                ->resize(600, 600, function ($constraint) {
+                    $constraint->aspectRatio();
+                    $constraint->upsize();
+                })
+                ->encode('webp', 90);
+        
+            // Save optimized image
+            Storage::put('public/' . $optimizedPath, (string) $image);
+        
+            return 'storage/' . $optimizedPath;
+        } catch (\Exception $e) {
+            // Log the error and return original path as fallback
+            \Log::error("Failed to optimize image {$imagePath}: " . $e->getMessage());
+            return 'storage/' . $cleanPath;
+        }
     }
 }
