@@ -1,10 +1,25 @@
 <div class="p-4 h-full">
     @if(empty($products))
     <div class="text-center py-16">
-        <h2 class="text-2xl font-semibold mb-4 text-gray-700">No Products Available</h2>
-        <p class="text-gray-500">
-            We don't have any products at the moment. Please check back later.
+        <svg class="mx-auto h-16 w-16 text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+        <h2 class="text-2xl font-semibold mb-2 text-gray-700">No Profiles Found</h2>
+        <p class="text-gray-500 mb-4">
+            @if(request()->has('name') || request()->has('subcategory_id'))
+                We couldn't find any profiles matching your search criteria.
+            @else
+                We don't have any profiles at the moment. Please check back later.
+            @endif
         </p>
+        @if(request()->has('name') || request()->has('subcategory_id'))
+        <button onclick="window.location.href='/profiles'" class="inline-flex items-center px-4 py-2 bg-[#755D33] text-white rounded hover:bg-[#5d4628] transition-colors">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            View All Profiles
+        </button>
+        @endif
     </div>
     @else
     <div x-data="{ selectedSubcategory: null }">

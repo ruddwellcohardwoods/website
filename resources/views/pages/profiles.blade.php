@@ -58,6 +58,15 @@
         <li x-show="isLoadingProducts" class="text-gray-500 text-center py-2">
             Loading...
         </li>
+
+        <!-- Empty state when no results found -->
+        <li x-show="!isLoadingProducts && query.length > 0 && filteredProducts.length === 0 && !hasMatchingSubcategories()"
+            class="text-gray-500 text-center py-4">
+            <svg class="mx-auto h-8 w-8 text-gray-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <p class="text-sm">No profiles found</p>
+        </li>
     </ul>
 
 </div>
@@ -147,7 +156,19 @@
 @endsection
 
 @section('main')
-<div id="productlist-container" x-html="productlistHtml">
+<!-- Loading State -->
+<div x-show="isLoadingMain" x-cloak class="flex items-center justify-center min-h-[50vh]">
+    <div class="text-center">
+        <svg class="animate-spin h-12 w-12 text-[#755D33] mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <p class="text-gray-600 text-lg">Loading profiles...</p>
+    </div>
+</div>
+
+<!-- Product List Container -->
+<div x-show="!isLoadingMain" id="productlist-container" x-html="productlistHtml">
     @include('layouts.partials.productlist', ['products' => $products, 'paginationLinks' =>
     $paginationLinks])
 </div>
