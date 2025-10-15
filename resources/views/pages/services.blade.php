@@ -101,14 +101,20 @@
                   Knotty Alder features a distinctive character with prominent knots and mineral streaks. Its light reddish-brown color deepens with age. Popular for rustic and traditional designs, it's commonly used in cabinetry, furniture, and interior millwork where a natural, organic appearance is desired.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Knotty Alder sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Knotty Alder sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Knotty Alder sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -137,14 +143,20 @@
                   Select Alder is a cleaner grade with fewer knots than Knotty Alder, offering a more uniform appearance. Its fine, even texture and light color make it ideal for staining and finishing. Widely used in fine cabinetry, furniture, and architectural millwork where a refined look is preferred.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Select Alder sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Select Alder sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Select Alder sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -173,14 +185,20 @@
                   Ash is known for its exceptional strength and shock resistance, featuring a prominent grain pattern. The wood ranges from light cream to light brown with occasional darker heartwood. Popular for tool handles, sports equipment, furniture, and flooring due to its durability and attractive appearance.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Ash sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Ash sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Ash sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -209,14 +227,20 @@
                   Yellow Birch features a light yellow to golden-brown color with a fine, uniform texture. This hard, heavy wood is valued for its strength and attractive grain. Commonly used in flooring, cabinetry, furniture, and turned objects. It takes stains well and can be finished to resemble more expensive woods.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Yellow Birch sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Yellow Birch sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Yellow Birch sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -245,14 +269,20 @@
                   Rustic Cherry embraces natural character marks including knots, mineral streaks, and color variation from light to dark red-brown. This grade offers a warm, lived-in aesthetic while maintaining Cherry's fine grain and smooth texture. Perfect for traditional and farmhouse-style furniture and cabinetry.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Rustic Cherry sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Rustic Cherry sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Rustic Cherry sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -281,14 +311,20 @@
                   Cherry is prized for its rich, warm reddish-brown color that deepens with age and exposure to light. With a fine, straight grain and smooth texture, it's considered one of the premium American hardwoods. Widely used in high-end furniture, cabinetry, and architectural millwork for its beauty and workability.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Cherry sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Cherry sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Cherry sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -317,14 +353,20 @@
                   Hard Maple is one of the hardest domestic woods, featuring a light, creamy white color with fine, uniform texture. Its exceptional durability makes it ideal for heavy-traffic flooring, butcher blocks, bowling alleys, and work surfaces. Also popular in furniture and cabinetry for its clean, bright appearance.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Hard Maple sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Hard Maple sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Hard Maple sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -353,14 +395,20 @@
                   Hickory is the hardest commercial wood native to North America. It features dramatic color variation from nearly white sapwood to darker brown heartwood. Known for exceptional strength and shock resistance, it's used in tool handles, flooring, and furniture where extreme durability is required.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Hickory sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Hickory sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Hickory sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -389,14 +437,20 @@
                   Rustic Hickory embraces all the natural character of this incredibly hard wood, including knots, mineral streaks, and dramatic color variations. Perfect for rustic, cabin, or lodge aesthetics where bold grain patterns and natural imperfections add character. Maintains Hickory's legendary strength and durability.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Rustic Hickory sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Rustic Hickory sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Rustic Hickory sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -425,14 +479,20 @@
                   Select Poplar is a versatile hardwood with distinctive greenish-yellow to purple heartwood streaks. Relatively soft for a hardwood, it's easy to work with and takes paint exceptionally well. Commonly used for painted cabinetry, furniture components, and architectural millwork where color uniformity isn't critical.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Select Poplar sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Select Poplar sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Select Poplar sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -461,14 +521,20 @@
                   Red Oak #1 Common is a character grade that includes more natural features like knots and color variation than select grades. It offers an authentic, rustic appearance while maintaining Red Oak's strength and durability. Cost-effective choice for projects where natural wood character is valued.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Red Oak #1 Common sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Red Oak #1 Common sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Red Oak #1 Common sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -497,14 +563,20 @@
                   Red Oak is one of America's most popular hardwoods, featuring a warm pinkish-brown color and prominent open grain pattern. It's strong, relatively affordable, and widely available. Excellent for flooring, furniture, cabinetry, and millwork. Takes stains well and can achieve various color finishes.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Red Oak sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Red Oak sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Red Oak sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -533,14 +605,20 @@
                   Sapele FAS (Firsts and Seconds) is a premium African hardwood with a rich golden to dark reddish-brown color. Features an interlocked grain that produces a distinctive ribbon stripe figure. Often used as a mahogany substitute in fine furniture, cabinetry, and architectural millwork.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Sapele FAS sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Sapele FAS sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Sapele FAS sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -569,14 +647,20 @@
                   Quarter Sawn Sapele showcases dramatic ribbon-stripe figure created by the interlocked grain. The quartersawn cut enhances stability and produces stunning visual effects. Highly sought after for high-end furniture, musical instruments, and decorative panels where dramatic figure is desired.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Sapele Quarter Sawn sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Sapele Quarter Sawn sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Sapele Quarter Sawn sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -605,14 +689,20 @@
                   Soft Maple features a light cream to reddish-brown color with fine, even texture. While softer than Hard Maple, it's still quite durable and more affordable. Popular for furniture, cabinetry, and millwork. Takes stains and finishes well, often used where Maple aesthetics are desired at lower cost.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Soft Maple sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Soft Maple sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Soft Maple sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -641,14 +731,20 @@
                   Select Walnut is a premium grade with rich chocolate brown color and minimal sapwood. Features straight grain with occasional waves or curls. One of the most valuable American hardwoods, prized for fine furniture, cabinetry, gunstocks, and high-end millwork. Exceptional beauty and workability.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Select Walnut sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Select Walnut sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Select Walnut sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -677,14 +773,20 @@
                   Rustic Walnut embraces natural character including knots, sapwood streaks, and mineral deposits. Offers dramatic contrast between dark heartwood and light sapwood. Perfect for projects seeking organic, lived-in character while maintaining Walnut's premium status and beautiful dark tones.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Rustic Walnut sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Rustic Walnut sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Rustic Walnut sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -713,14 +815,20 @@
                   Walnut Veneer Grade represents the highest quality logs selected specifically for veneer production. Features exceptional color consistency, figure, and grain patterns. Used for slicing decorative veneers for high-end architectural panels, furniture, and cabinetry where appearance is paramount.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Walnut Veneer Grade sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Walnut Veneer Grade sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Walnut Veneer Grade sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -749,14 +857,20 @@
                   White Oak #1 Common is a character grade featuring more natural variations including knots and color differences. Offers the strength and water resistance of White Oak at a more economical price point. Ideal for rustic or reclaimed-look projects while maintaining structural integrity.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="White Oak #1 Common sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="White Oak #1 Common sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="White Oak #1 Common sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -785,14 +899,20 @@
                   White Oak is a premium hardwood with light to medium brown color and tight grain structure. Naturally water-resistant due to closed cell structure, making it ideal for outdoor furniture and boat building. Extremely durable and popular for flooring, furniture, and barrels for aging spirits.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="White Oak sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="White Oak sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="White Oak sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -821,14 +941,20 @@
                   Quarter Sawn White Oak showcases dramatic ray fleck figure, creating a distinctive medullary ray pattern. This cut method enhances stability and produces stunning visual effects. Highly prized for Arts & Crafts and Mission-style furniture, as well as fine cabinetry and architectural millwork.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="White Oak Quarter Sawn sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="White Oak Quarter Sawn sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="White Oak Quarter Sawn sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -857,14 +983,20 @@
                   Rustic White Oak celebrates natural character including knots, mineral streaks, and color variation. Maintains White Oak's superior strength and water resistance while offering authentic, reclaimed-wood aesthetics. Perfect for farmhouse, industrial, or rustic designs where character marks add value.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Rustic White Oak sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Rustic White Oak sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Rustic White Oak sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -893,14 +1025,20 @@
                   Rift Sawn White Oak features straight, uniform grain with minimal ray fleck figure. This specialized cut produces the most stable boards with consistent appearance. Premium choice for contemporary designs, modern cabinetry, and architectural millwork where clean, straight lines are essential.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Rift Sawn White Oak sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Rift Sawn White Oak sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Rift Sawn White Oak sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
@@ -929,14 +1067,20 @@
                   Eastern White Pine is a softwood with a light cream to pale yellow color and straight, even grain. It's lightweight, easy to work with, and takes paint and stain well. Popular for interior trim, paneling, furniture, and pattern-making. Valued for its uniform texture and resistance to warping.
                 </p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 1</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+1" 
+                         alt="Eastern White Pine sample 1" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 2</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+2" 
+                         alt="Eastern White Pine sample 2" 
+                         class="w-full h-full object-cover">
                   </div>
-                  <div class="aspect-square bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-sm">
-                    <span>Image 3</span>
+                  <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://placehold.co/400x400/e5e7eb/9ca3af?text=Image+3" 
+                         alt="Eastern White Pine sample 3" 
+                         class="w-full h-full object-cover">
                   </div>
                 </div>
               </div>
