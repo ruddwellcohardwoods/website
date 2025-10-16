@@ -170,7 +170,7 @@
 
             <!-- Profile Container with Background Image -->
             <div class="rounded-lg p-8 max-w-5xl mx-auto" style="background-image: url('{{ asset('images/home/our_profiles.png') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                <div class="grid grid-cols-3 gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <!-- Profile 1 -->
                     <div class="bg-white rounded-lg p-6 text-center shadow-sm">
                         <div class="h-48 flex items-center justify-center mb-4">
