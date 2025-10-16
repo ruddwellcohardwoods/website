@@ -1138,73 +1138,75 @@
         </button>
       </div>
 
-      <!-- Masonry Layout -->
-      <div class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+      <!-- Masonry Layout - Baseboards -->
+      <div x-show="activeTab === 'baseboards'" class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['baseboards'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/1.png') }}" alt="Millwork profile 1" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/baseboards/' . $image) }}" alt="Baseboard {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Casings -->
+      <div x-show="activeTab === 'casings'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['casings'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/2.png') }}" alt="Millwork profile 2" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/casings/' . $image) }}" alt="Casing {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Door Jambs -->
+      <div x-show="activeTab === 'doorjambs'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['doorjambs'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/3.png') }}" alt="Millwork profile 3" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/doorjambs/' . $image) }}" alt="Door Jamb {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Window Sills -->
+      <div x-show="activeTab === 'windowsills'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['windowsills'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/4.png') }}" alt="Millwork profile 4" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/windowsills/' . $image) }}" alt="Window Sill {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Interior & Exterior Siding -->
+      <div x-show="activeTab === 'siding'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['interiorexteriorsiding'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/5.png') }}" alt="Millwork profile 5" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/interiorexteriorsiding/' . $image) }}" alt="Siding {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Tabletop Glue-Up -->
+      <div x-show="activeTab === 'tabletop'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($serviceImages['tabletopglueup'] as $image)
         <div class="break-inside-avoid mb-4 lg:mb-6">
           <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/6.png') }}" alt="Millwork profile 6" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+            <img src="{{ asset('images/services/tabletopglueup/' . $image) }}" alt="Tabletop Glue-Up {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
           </div>
         </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/7.png') }}" alt="Millwork profile 7" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/8.png') }}" alt="Millwork profile 8" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/9.png') }}" alt="Millwork profile 9" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/10.png') }}" alt="Millwork profile 10" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/11.png') }}" alt="Millwork profile 11" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
-        <div class="break-inside-avoid mb-4 lg:mb-6">
-          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-            <img src="{{ asset('images/services/12.png') }}" alt="Millwork profile 12" class="w-full h-auto hover:scale-105 transition-transform duration-500">
-          </div>
-        </div>
+        @endforeach
       </div>
     </div>
 
     <!-- Specialty Services Section -->
-    <div class="mb-16" x-data="{ activeSpecialtyTab: 'lockmiter' }">
+    <div class="mb-16" x-data="{ activeSpecialtyTab: 'lockmiterjoints' }">
       <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Specialty Services</h2>
       <p class="text-base text-gray-600 mb-8">
         We also offer specialized woodworking and <span class="font-semibold">logistical services</span> to support your builds.
@@ -1213,14 +1215,14 @@
       <!-- Specialty Tabs -->
       <div class="flex flex-wrap gap-2 mb-8">
         <button 
-          @click="activeSpecialtyTab = 'lockmiter'" 
-          :class="activeSpecialtyTab === 'lockmiter' ? 'bg-wellco-beige border-wellco-brown-alt text-wellco-black' : 'bg-wellco-light-beige/20 border-gray-300 text-wellco-dark-gray'"
+          @click="activeSpecialtyTab = 'lockmiterjoints'" 
+          :class="activeSpecialtyTab === 'lockmiterjoints' ? 'bg-wellco-beige border-wellco-brown-alt text-wellco-black' : 'bg-wellco-light-beige/20 border-gray-300 text-wellco-dark-gray'"
           class="px-4 py-2 rounded-md border font-medium hover:bg-wellco-beige transition-colors">
           Lock-Miter Joints
         </button>
         <button 
-          @click="activeSpecialtyTab = 'fauxbeam'" 
-          :class="activeSpecialtyTab === 'fauxbeam' ? 'bg-wellco-beige border-wellco-brown-alt text-wellco-black' : 'bg-wellco-light-beige/20 border-gray-300 text-wellco-dark-gray'"
+          @click="activeSpecialtyTab = 'fauxbeamassembly'" 
+          :class="activeSpecialtyTab === 'fauxbeamassembly' ? 'bg-wellco-beige border-wellco-brown-alt text-wellco-black' : 'bg-wellco-light-beige/20 border-gray-300 text-wellco-dark-gray'"
           class="px-4 py-2 rounded-md border font-medium hover:bg-wellco-beige transition-colors">
           Faux Beam Assembly
         </button>
@@ -1232,17 +1234,37 @@
         </button>
       </div>
 
-      <!-- Specialty Images Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
-          <img src="{{ asset('images/services/footer1.png') }}" alt="Lock-Miter Joints" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+      <!-- Masonry Layout - Lock-Miter Joints -->
+      <div x-show="activeSpecialtyTab === 'lockmiterjoints'" class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($specialtyImages['lockmiterjoints'] as $image)
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/lockmiterjoints/' . $image) }}" alt="Lock-Miter Joints {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
-          <img src="{{ asset('images/services/footer2.png') }}" alt="Faux Beam Assembly" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - Faux Beam Assembly -->
+      <div x-show="activeSpecialtyTab === 'fauxbeamassembly'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($specialtyImages['fauxbeamassembly'] as $image)
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/fauxbeamassembly/' . $image) }}" alt="Faux Beam Assembly {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
-        <div class="rounded-lg overflow-hidden shadow-md aspect-[4/3] bg-gray-100 cursor-pointer gallery-item">
-          <img src="{{ asset('images/services/footer3.png') }}" alt="S3S Surfaced 3 Sides" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        @endforeach
+      </div>
+
+      <!-- Masonry Layout - S3S -->
+      <div x-show="activeSpecialtyTab === 's3s'" x-cloak class="columns-2 lg:columns-3 gap-4 lg:gap-6">
+        @foreach($specialtyImages['s3s'] as $image)
+        <div class="break-inside-avoid mb-4 lg:mb-6">
+          <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
+            <img src="{{ asset('images/services/s3s/' . $image) }}" alt="S3S (Surfaced 3 Sides) {{ basename($image, '.jpg') }}" class="w-full h-auto hover:scale-105 transition-transform duration-500">
+          </div>
         </div>
+        @endforeach
       </div>
     </div>
 

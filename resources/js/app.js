@@ -23,16 +23,11 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', setNoteCardHeight);
 
 // Gallery Lightbox Functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightbox-img');
-    const lightboxCounter = document.getElementById('lightbox-counter');
-    const closeBtn = document.getElementById('lightbox-close');
-    const prevBtn = document.getElementById('lightbox-prev');
-    const nextBtn = document.getElementById('lightbox-next');
-    
+(function() {
     let currentIndex = 0;
     let galleryImages = [];
+    let lightbox, lightboxImg, lightboxCounter, closeBtn, prevBtn, nextBtn;
+    let keyboardListenerAdded = false;
     
     // Collect all gallery images on the page
     function collectGalleryImages() {
@@ -80,39 +75,75 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCounter();
     }
     
-    // Collect images when page loads
-    collectGalleryImages();
-    
-    // Add click event to all gallery items
-    document.querySelectorAll('.gallery-item').forEach((item, index) => {
-        item.addEventListener('click', () => openLightbox(index));
-    });
-    
-    // Close button
-    if (closeBtn) {
-        closeBtn.addEventListener('click', closeLightbox);
+    // Initialize or reinitialize the lightbox
+    function initLightbox() {
+        lightbox = document.getElementById('lightbox');
+        lightboxImg = document.getElementById('lightbox-img');
+        lightboxCounter = document.getElementById('lightbox-counter');
+        closeBtn = document.getElementById('lightbox-close');
+        prevBtn = document.getElementById('lightbox-prev');
+        nextBtn = document.getElementById('lightbox-next');
+        
+        if (!lightbox) return;
+        
+        // Collect images
+        collectGalleryImages();
+        
+        // Use event delegation for dynamic content
+        document.body.removeEventListener('click', handleGalleryClick);
+        document.body.addEventListener('click', handleGalleryClick);
+        
+        // Close button
+        if (closeBtn) {
+            closeBtn.removeEventListener('click', closeLightbox);
+            closeBtn.addEventListener('click', closeLightbox);
+        }
+        
+        // Previous button
+        if (prevBtn) {
+            prevBtn.removeEventListener('click', showPrev);
+            prevBtn.addEventListener('click', showPrev);
+        }
+        
+        // Next button
+        if (nextBtn) {
+            nextBtn.removeEventListener('click', showNext);
+            nextBtn.addEventListener('click', showNext);
+        }
+        
+        // Click outside image to close
+        lightbox.removeEventListener('click', handleLightboxClick);
+        lightbox.addEventListener('click', handleLightboxClick);
+        
+        // Keyboard navigation (only add once)
+        if (!keyboardListenerAdded) {
+            document.addEventListener('keydown', handleKeyboard);
+            keyboardListenerAdded = true;
+        }
     }
     
-    // Previous button
-    if (prevBtn) {
-        prevBtn.addEventListener('click', showPrev);
+    // Handle gallery item clicks with event delegation
+    function handleGalleryClick(e) {
+        const galleryItem = e.target.closest('.gallery-item');
+        if (galleryItem) {
+            const allItems = Array.from(document.querySelectorAll('.gallery-item'));
+            const index = allItems.indexOf(galleryItem);
+            if (index !== -1) {
+                openLightbox(index);
+            }
+        }
     }
     
-    // Next button
-    if (nextBtn) {
-        nextBtn.addEventListener('click', showNext);
-    }
-    
-    // Click outside image to close
-    lightbox.addEventListener('click', function(e) {
+    // Handle lightbox background clicks
+    function handleLightboxClick(e) {
         if (e.target === lightbox) {
             closeLightbox();
         }
-    });
+    }
     
-    // Keyboard navigation
-    document.addEventListener('keydown', function(e) {
-        if (!lightbox.classList.contains('hidden')) {
+    // Handle keyboard events
+    function handleKeyboard(e) {
+        if (lightbox && !lightbox.classList.contains('hidden')) {
             if (e.key === 'Escape') {
                 closeLightbox();
             } else if (e.key === 'ArrowLeft') {
@@ -121,5 +152,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 showNext();
             }
         }
-    });
-});
+    }
+    
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', initLightbox);
+    
+    // Expose reinit function globally for dynamic content
+    window.reinitLightbox = initLightbox;
+})();

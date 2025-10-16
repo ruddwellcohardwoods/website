@@ -24,142 +24,16 @@
         <div class="mx-auto max-w-7xl px-4">
             <!-- Masonry Layout -->
             <div class="columns-2 lg:columns-3 gap-4 lg:gap-6">
-                
+                @foreach($images as $image)
                 <div class="break-inside-avoid mb-4 lg:mb-6">
                     <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/1.png') }}" 
-                             alt="Interior Project 1" 
+                        <img src="{{ asset('images/gallery/interiors/' . $image) }}" 
+                             alt="Interior Project {{ basename($image, '.jpg') }}" 
                              class="w-full h-auto hover:scale-105 transition-transform duration-500"
                              data-gallery="interiors">
                     </div>
                 </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/2.png') }}" 
-                             alt="Interior Project 2" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/3.png') }}" 
-                             alt="Interior Project 3" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/4.png') }}" 
-                             alt="Interior Project 4" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/5.png') }}" 
-                             alt="Interior Project 5" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/6.png') }}" 
-                             alt="Interior Project 6" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/7.png') }}" 
-                             alt="Interior Project 7" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/8.png') }}" 
-                             alt="Interior Project 8" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/9.png') }}" 
-                             alt="Interior Project 9" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/10.png') }}" 
-                             alt="Interior Project 10" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/11.png') }}" 
-                             alt="Interior Project 11" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/12.png') }}" 
-                             alt="Interior Project 12" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/13.png') }}" 
-                             alt="Interior Project 13" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/14.png') }}" 
-                             alt="Interior Project 14" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/interiors/15.png') }}" 
-                             alt="Interior Project 15" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="interiors">
-                    </div>
-                </div>
-
+                @endforeach
             </div>
         </div>
     </div>

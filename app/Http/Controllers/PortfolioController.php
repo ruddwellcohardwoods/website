@@ -203,6 +203,72 @@ class PortfolioController extends Controller
         return view('pages.gallery');
     }
 
+    public function exteriors()
+    {
+        $images = $this->getImagesFromDirectory('images/gallery/exteriors');
+        return view('pages.exteriors', compact('images'));
+    }
+
+    public function interiors()
+    {
+        $images = $this->getImagesFromDirectory('images/gallery/interiors');
+        return view('pages.interiors', compact('images'));
+    }
+
+    public function commercial()
+    {
+        $images = $this->getImagesFromDirectory('images/gallery/commercial');
+        return view('pages.commercial', compact('images'));
+    }
+
+    public function services()
+    {
+        $serviceFolders = [
+            'baseboards',
+            'casings',
+            'doorjambs',
+            'windowsills',
+            'interiorexteriorsiding',
+            'tabletopglueup'
+        ];
+
+        $specialtyFolders = [
+            'lockmiterjoints',
+            'fauxbeamassembly',
+            's3s'
+        ];
+
+        $serviceImages = [];
+        foreach ($serviceFolders as $folder) {
+            $serviceImages[$folder] = $this->getImagesFromDirectory('images/services/' . $folder);
+        }
+
+        $specialtyImages = [];
+        foreach ($specialtyFolders as $folder) {
+            $specialtyImages[$folder] = $this->getImagesFromDirectory('images/services/' . $folder);
+        }
+
+        return view('pages.services', compact('serviceImages', 'specialtyImages'));
+    }
+
+    private function getImagesFromDirectory($directory)
+    {
+        $path = public_path($directory);
+        $images = [];
+
+        if (is_dir($path)) {
+            $files = scandir($path);
+            foreach ($files as $file) {
+                if (preg_match('/\.(jpg|jpeg|png|gif|webp)$/i', $file)) {
+                    $images[] = $file;
+                }
+            }
+            sort($images, SORT_NATURAL);
+        }
+
+        return $images;
+    }
+
     public function show($woodName)
     {
         // Find the wood details by name
