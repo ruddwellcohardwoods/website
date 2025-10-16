@@ -78,6 +78,12 @@
                     this.setSelectedSubcategoryName(subcategoryId);
                     this.isOpen = false;
                     this.isLoadingMain = false;
+                    // Reinitialize lightbox for new images
+                    this.$nextTick(() => {
+                        if (window.reinitLightbox) {
+                            window.reinitLightbox();
+                        }
+                    });
                 })
                 .catch(error => {
                     console.error('Error:', error);
@@ -160,6 +166,12 @@
                     this.toggleCategory(product.category_id); 
                     this.setSelectedSubcategoryName(product.subcategory_id);
                     this.isLoadingMain = false;
+                    // Reinitialize lightbox for new images
+                    this.$nextTick(() => {
+                        if (window.reinitLightbox) {
+                            window.reinitLightbox();
+                        }
+                    });
                 })
                 .catch(error => {
                     console.error('Error fetching products:', error);
