@@ -3,11 +3,76 @@
 @section('title', 'Home - Wellco Hardwoods')
 
 @section('hero')
-<!-- Hero Section with Large House Image -->
-<div class="px-4 sm:px-16 xl:px-44 py-8">
+<!-- Hero Carousel Section -->
+<div class="px-4 sm:px-16 xl:px-44 py-8" x-data="{
+    currentSlide: 0,
+    totalSlides: 10,
+    autoplayInterval: null,
+    init() {
+        this.startAutoplay();
+    },
+    startAutoplay() {
+        this.autoplayInterval = setInterval(() => {
+            this.nextSlide();
+        }, 5000);
+    },
+    stopAutoplay() {
+        if (this.autoplayInterval) {
+            clearInterval(this.autoplayInterval);
+        }
+    },
+    nextSlide() {
+        this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+    },
+    prevSlide() {
+        this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+    },
+    goToSlide(index) {
+        this.currentSlide = index;
+        this.stopAutoplay();
+        this.startAutoplay();
+    }
+}" @mouseenter="stopAutoplay()" @mouseleave="startAutoplay()">
     <div class="relative h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-lg">
-        <img src="{{ asset('images/home/hero.png') }}" alt="Modern House" 
-            class="w-full h-full object-cover">
+        <!-- Carousel Images -->
+        @for ($i = 1; $i <= 10; $i++)
+        <div x-show="currentSlide === {{ $i - 1 }}" 
+             x-transition:enter="transition ease-out duration-700"
+             x-transition:enter-start="opacity-0"
+             x-transition:enter-end="opacity-100"
+             x-transition:leave="transition ease-in duration-700"
+             x-transition:leave-start="opacity-100"
+             x-transition:leave-end="opacity-0"
+             class="absolute inset-0">
+            <img src="{{ asset('images/hero/' . $i . '.jpg') }}" 
+                 alt="Hero Image {{ $i }}"
+                 class="w-full h-full object-cover">
+        </div>
+        @endfor
+
+        <!-- Navigation Arrows -->
+        <button @click="prevSlide(); stopAutoplay(); startAutoplay();" 
+                class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all duration-300 z-10">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+        </button>
+        <button @click="nextSlide(); stopAutoplay(); startAutoplay();" 
+                class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all duration-300 z-10">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+
+        <!-- Dots Indicator -->
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+            @for ($i = 0; $i < 10; $i++)
+            <button @click="goToSlide({{ $i }})" 
+                    :class="currentSlide === {{ $i }} ? 'bg-white w-8' : 'bg-white/50 w-2'"
+                    class="h-2 rounded-full transition-all duration-300">
+            </button>
+            @endfor
+        </div>
     </div>
 </div>
 @endsection

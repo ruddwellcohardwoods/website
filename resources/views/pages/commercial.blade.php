@@ -40,131 +40,16 @@
                     </div>
                 </div>
                 
+                @foreach($images as $image)
                 <div class="break-inside-avoid mb-4 lg:mb-6">
                     <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/1.png') }}" 
-                             alt="Commercial Project 1" 
+                        <img src="{{ asset('images/gallery/commercial/' . $image) }}" 
+                             alt="Commercial Project {{ basename($image, '.jpg') }}" 
                              class="w-full h-auto hover:scale-105 transition-transform duration-500"
                              data-gallery="commercial">
                     </div>
                 </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/2.png') }}" 
-                             alt="Commercial Project 2" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/3.png') }}" 
-                             alt="Commercial Project 3" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/4.png') }}" 
-                             alt="Commercial Project 4" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/5.png') }}" 
-                             alt="Commercial Project 5" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/6.png') }}" 
-                             alt="Commercial Project 6" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/7.png') }}" 
-                             alt="Commercial Project 7" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/8.png') }}" 
-                             alt="Commercial Project 8" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/9.png') }}" 
-                             alt="Commercial Project 9" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/10.png') }}" 
-                             alt="Commercial Project 10" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/11.png') }}" 
-                             alt="Commercial Project 11" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/12.png') }}" 
-                             alt="Commercial Project 12" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/13.png') }}" 
-                             alt="Commercial Project 13" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
-                
-                <div class="break-inside-avoid mb-4 lg:mb-6">
-                    <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer gallery-item">
-                        <img src="{{ asset('images/gallery/commercial/14.png') }}" 
-                             alt="Commercial Project 14" 
-                             class="w-full h-auto hover:scale-105 transition-transform duration-500"
-                             data-gallery="commercial">
-                    </div>
-                </div>
+                @endforeach
 
             </div>
         </div>
