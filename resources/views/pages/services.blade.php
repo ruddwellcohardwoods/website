@@ -17,59 +17,14 @@
     </div>
 
     <!-- Inventory Offering Section -->
-    <div class="mb-16" x-data="{ showWoodSpecies: false }">
+    <div class="mb-16" x-data="{ openSpecies: null }">
       <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Inventory offering</h2>
       <p class="text-base text-gray-600 mb-8">
         We provide a downloadable Excel document that contains a comprehensive list of our available wood product. This serves as a reference for customers and partners.
       </p>
 
-      <!-- Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        <!-- Card 1: Wood species -->
-        <button 
-          @click="showWoodSpecies = !showWoodSpecies"
-          class="bg-wellco-light-beige/20 border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-all text-left group">
-          <div class="flex justify-between items-start">
-            <div>
-              <h3 class="text-xl font-bold text-wellco-black mb-3">Wood species</h3>
-              <p class="text-wellco-dark-gray">
-                A list of all the available types of wood (e.g., oak, maple, mahogany).
-              </p>
-            </div>
-            <svg 
-              class="w-6 h-6 text-wellco-brown-alt transition-transform duration-300 flex-shrink-0 ml-2"
-              :class="showWoodSpecies ? 'rotate-180' : ''"
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </div>
-        </button>
-
-        <!-- Card 2: Product types -->
-        <div class="bg-wellco-light-beige/20 border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-          <h3 class="text-xl font-bold text-wellco-black mb-3">Product types</h3>
-          <p class="text-wellco-dark-gray">
-            Information on forms (e.g., planks, slabs, blocks) and use cases.
-          </p>
-        </div>
-
-        <!-- Card 3: Dimensions -->
-        <div class="bg-wellco-light-beige/20 border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-          <h3 class="text-xl font-bold text-wellco-black mb-3">Dimensions</h3>
-          <p class="text-wellco-dark-gray">
-            Standard sizes, thicknesses, and lengths of each product.
-          </p>
-        </div>
-      </div>
-
       <!-- Wood Species Accordion Section -->
-      <div 
-        x-show="showWoodSpecies"
-        x-collapse
-        class="mt-8"
-        x-data="{ openSpecies: null }">
+      <div class="mt-8">
         
         <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-md">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Available Wood Species</h3>
