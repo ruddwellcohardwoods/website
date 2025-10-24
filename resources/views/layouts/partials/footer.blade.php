@@ -1,34 +1,22 @@
 <footer class="bg-[#F5F1EB] py-16">
     <div class="px-4 sm:px-16 xl:px-44">
-        <div class="flex flex-col md:flex-row justify-between gap-8">
-            <!-- Company Logo -->
-            <div class="flex-1">
-                <a href="/">
-                    <img class="h-16 w-auto" src="{{asset('images/logo.png')}}" alt="Wellco Hardwoods">
-                </a>
+        <div class="flex flex-col md:flex-row justify-center gap-8">
+            <!-- Quick Links -->
+            <div>
+                <ul class="flex flex-row space-x-9">
+                    <li><a href="/gallery" class="text-md text-gray-600 hover:text-gray-900">Gallery</a></li>
+                    <li><a href="/profiles" class="text-md text-gray-600 hover:text-gray-900">Profiles</a></li>
+                    <li><a href="/services" class="text-md text-gray-600 hover:text-gray-900">Services</a></li>
+                </ul>
             </div>
 
-            <!-- Right Side Container -->
-            <div class="flex-1 flex flex-col md:flex-row justify-end gap-8">
-                <!-- Quick Links -->
-                <div>
-                    <h3 class="text-md font-semibold text-gray-900 tracking-wider uppercase mb-4">Quick links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="/gallery" class="text-md text-gray-600 hover:text-gray-900">Gallery</a></li>
-                        <li><a href="/profiles" class="text-md text-gray-600 hover:text-gray-900">Profiles</a></li>
-                        <li><a href="/services" class="text-md text-gray-600 hover:text-gray-900">Services</a></li>
-                    </ul>
-                </div>
-
-                <!-- Company -->
-                <div>
-                    <h3 class="text-md font-semibold text-gray-900 tracking-wider uppercase mb-4">Company</h3>
-                    <ul class="space-y-2">
-                        <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">About us</a></li>
-                        <li><a href="/contact" class="text-md text-gray-600 hover:text-gray-900">Contact us</a></li>
-                        <li><a href="/faqs" class="text-md text-gray-600 hover:text-gray-900">FAQ</a></li>
-                    </ul>
-                </div>
+            <!-- Company -->
+            <div>
+                <ul class="flex flex-row space-x-9">
+                    <li><a href="/about" class="text-md text-gray-600 hover:text-gray-900">About us</a></li>
+                    <li><a href="/contact" class="text-md text-gray-600 hover:text-gray-900">Contact us</a></li>
+                    <li><a href="/faqs" class="text-md text-gray-600 hover:text-gray-900">FAQ</a></li>
+                </ul>
             </div>
         </div>
 

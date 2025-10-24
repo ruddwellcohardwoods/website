@@ -14,7 +14,7 @@
     startAutoplay() {
         this.autoplayInterval = setInterval(() => {
             this.nextSlide();
-        }, 5000);
+        }, 8000);
     },
     stopAutoplay() {
         if (this.autoplayInterval) {

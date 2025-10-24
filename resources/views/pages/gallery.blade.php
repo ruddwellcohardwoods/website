@@ -31,16 +31,14 @@
                              alt="Interiors" 
                              class="w-full h-full object-cover">
                         
-                        <!-- Glass Overlay -->
+                        <!-- Gradient Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
-                                <div class="px-8 py-6 flex items-center justify-between">
-                                    <h3 class="text-2xl font-semibold text-white">Interiors</h3>
-                                    <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
-                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </div>
+                            <div class="px-8 py-6 flex items-center justify-between">
+                                <h3 class="text-2xl font-semibold text-white">Interiors</h3>
+                                <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -53,16 +51,14 @@
                              alt="Exteriors" 
                              class="w-full h-full object-cover">
                         
-                        <!-- Glass Overlay -->
+                        <!-- Gradient Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
-                                <div class="px-8 py-6 flex items-center justify-between">
-                                    <h3 class="text-2xl font-semibold text-white">Exteriors</h3>
-                                    <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
-                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </div>
+                            <div class="px-8 py-6 flex items-center justify-between">
+                                <h3 class="text-2xl font-semibold text-white">Exteriors</h3>
+                                <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -75,16 +71,14 @@
                              alt="Commercial" 
                              class="w-full h-full object-cover">
                         
-                        <!-- Glass Overlay -->
+                        <!-- Gradient Overlay -->
                         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent">
-                            <div class="backdrop-blur-sm bg-white/10 border-t border-white/20">
-                                <div class="px-8 py-6 flex items-center justify-between">
-                                    <h3 class="text-2xl font-semibold text-white">Commercial</h3>
-                                    <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
-                                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </div>
+                            <div class="px-8 py-6 flex items-center justify-between">
+                                <h3 class="text-2xl font-semibold text-white">Commercial</h3>
+                                <svg class="w-6 h-6 text-white group-hover:translate-x-1 transition-transform duration-300" 
+                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
                             </div>
                         </div>
                     </div>
