@@ -16,13 +16,8 @@
       </p>
     </div>
 
-    <!-- Inventory Offering Section -->
+    <!-- Available Wood Species Section -->
     <div class="mb-16" x-data="{ openSpecies: null }">
-      <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Inventory offering</h2>
-      <p class="text-base text-gray-600 mb-8">
-        We provide a downloadable Excel document that contains a comprehensive list of our available wood product. This serves as a reference for customers and partners.
-      </p>
-
       <!-- Wood Species Accordion Section -->
       <div class="mt-8">
         
