@@ -14,7 +14,7 @@
             
             <!-- Subtitle -->
             <p class="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                From warm interiors to bold exteriors and commercial elegance, see how our woodwork brings ideas to life.!
+                From warm interiors to bold exteriors and commercial elegance, see how our woodwork brings ideas to life.
             </p>
         </div>
     </div>
